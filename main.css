@@ -1,0 +1,163 @@
+.hero {
+  height: 90vh;
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+  line-height: 60px;
+  text-align: right;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  float: left;
+  color: #4D4D4D;
+  font-weight: 700;
+  margin-left: 70px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.logo span {
+  color: #000000;
+}
+
+.mainNav {
+  text-decoration: none;
+  color: #4D4D4D;
+  padding-left: 6px;
+  margin-right: 70px;
+}
+
+.btn-1 {
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px 15px;
+}
+
+.btn-2 {
+  background-color: #1890FF;
+  border-radius: 3px;
+  color: white;
+  padding: 10px 25px;
+}
+
+.heroContent {
+  margin: 55px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 35px 0;
+  color: #fff;
+  background: -webkit-gradient(linear, right top, left top, from(#77C7F4), color-stop(50%, #58A4F1), to(#2F80ED));
+  background: linear-gradient(to left, #77C7F4, #58A4F1 50%, #2F80ED);
+}
+
+.heroContent p .leading {
+  color: #DDECFC;
+}
+
+.hero-1 {
+  margin-left: -45px;
+}
+
+.hero-1 h3 {
+  font-weight: 500;
+}
+
+.hero-2 h3 {
+  margin-top: -28px;
+}
+
+.hero-2 p {
+  color: #fff;
+  font-weight: 600;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.info-1 {
+  text-align: center;
+  margin-top: -50px;
+  color: #4D4D4D;
+}
+
+.parentCard {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(150px, 1fr))[3];
+      grid-template-columns: repeat(3, minmax(150px, 1fr));
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  width: 90%;
+  margin: 90px 130px;
+}
+
+.card {
+  width: 62%;
+}
+
+img {
+  max-width: 80%;
+  height: auto;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.info-2 {
+  margin-top: -50px;
+  color: #4D4D4D;
+}
+
+.info-2 h3 {
+  margin-left: 25px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.contText {
+  width: 500px;
+}
+
+.container {
+  background: #E1F1FF;
+  width: 90%;
+  margin: 30px auto;
+  padding: 40px 40px;
+}
+
+.container h1 {
+  color: #000;
+}
+
+.infoCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=main.css.map */
